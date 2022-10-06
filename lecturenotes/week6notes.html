@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 CSS Intro</title>
+    <!-- this is an embedded style sheet -->
+    <style>
+        /* below we have a grouped selector */
+        p, ul {
+            color:purple;
+            font-family:Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+        /* descendant selector */
+        p a {
+            color: green;
+        }
+        #firstparagraph {
+            color:tomato;
+        }
+        .pinktext {
+            color:pink;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.amazon.com">Amazon</a>
+    <!-- id values must be unique -->
+    <p id="firstparagraph">
+        Lorem ipsum dolor sit amet, <a href="http://www.google.com">Google</a>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <ul>
+        <li>green</li>
+        <li>blue</li>
+    </ul>
+    <p>Haloween soon! Woooooooooo</p>
+    <p class="pinktext">Cannot wait to eat candy.</p>
+</body>
+</html>
