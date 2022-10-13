@@ -1,0 +1,21 @@
+a:visited {
+    color: #9d03fc;
+}
+
+a:hover {
+    color: #fc8c03;
+}
+
+body {
+    background-color:#000000;
+}
+
+p {
+    background-image: url("../images/dog.jpeg");
+}
+
+.second {
+    border: 2px solid #fc8c03;
+    margin: 20px;
+    padding: 10px;
+}
