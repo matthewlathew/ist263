@@ -51,4 +51,7 @@ nav {
 .secondbox .column3 {
     flex: 1;
 }
-
+.secondbox .column4 {
+    margin-left: 60px;
+    flex: 3;
+}
