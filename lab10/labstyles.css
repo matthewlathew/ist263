@@ -55,12 +55,7 @@ nav {
     margin-left: 60px;
     flex: 3;
 }
-h1 {
-    font-size: 3em;
+.frisbee{
+    max-width: 100%;
 }
-h2 {
-    font-size: 2em;
-}
-p {
-    font-size: 1em;
-}
+
