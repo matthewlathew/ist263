@@ -58,3 +58,6 @@ nav {
 .frisbee {
     max-width: 100%;
 }
+.secondbox {
+    flex-wrap: wrap;
+}
