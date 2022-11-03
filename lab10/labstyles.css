@@ -35,7 +35,7 @@ nav {
     background-color: #d3f5dc;
     border-radius: 1em;
     margin-top: 20px;
-    margin: 30 px
+    margin: 30 px;
 }
 .secondbox {
     display: flex;
@@ -43,10 +43,10 @@ nav {
     background-color: #d3f5dc;
     border-radius: 1em;
     margin-top: 20px;
-    margin: 30 px
+    margin: 30 px;
 }
 .firstbox .column2 {
-    margin-left: 60px
+    margin-left: 60px;
 }
 .secondbox .column3 {
     flex: 1;
@@ -60,4 +60,11 @@ nav {
 }
 .secondbox {
     flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    nav a {
+        max-width: 100%;
+        display: block;
+    }
+    span {display: none;}
 }
