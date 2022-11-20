@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #skip {
+            background-color: #f08080;
+            border: 1px solid black;
+            padding: 2px;
+            position: absolute;  /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <a id="skip" tabindex="1" href="#content">Skip To Content</a> <br>
+    <!-- # sign in href means bookmark link -->
+    <a href="http://www.syr.edu" tabindex="2">SU</a> <br>
+    <a href="http://www.amazon.com" tabindex="3">Amazon</a> <br>
+    <a href="http://www.google.com" tabindex="4">Google</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga quia, ullam tempore nihil sint hic cumque doloremque harum ut officiis, nulla eius atque molestias, odio magnam autem a sit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis et vel ea eligendi facere adipisci saepe perspiciatis fugit laudantium eveniet aut dicta quisquam natus ad repellat, architecto blanditiis ratione.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, magnam eius alias voluptas, ratione repellat laborum ipsum veritatis nulla laboriosam ab. Ipsa excepturi impedit fugit ullam maiores iure debitis temporibus.</p>
+    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit id rerum rem. Suscipit, sit veniam? Molestiae sunt ipsum iusto, dolorem, repellendus soluta maiores amet neque nulla et, quas vitae.</p>
+    <!--this is part of our bookmark link-->
+</body>
+
+</html>

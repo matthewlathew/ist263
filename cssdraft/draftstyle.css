@@ -1,0 +1,18 @@
+.d1 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    background-color: rgb(204, 210, 202);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: antiquewhite;
+}
+.banner {
+    max-width: 100%;
+}
+.flex1 {
+    display: flex;
+    flex: 1;
+}
