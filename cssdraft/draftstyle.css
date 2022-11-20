@@ -4,15 +4,57 @@
     margin-bottom: 10px;
     justify-content: space-around;
     background-color: rgb(204, 210, 202);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Bold', sans-serif;
 }
 body {
     background-color: antiquewhite;
 }
 .banner {
+    display: flex;
     max-width: 100%;
 }
-.flex1 {
+
+.bigflex {
     display: flex;
-    flex: 1;
+    padding: 15px;
 }
+
+img {
+    max-width: 100%;
+    display: flex;
+}
+
+.flex1, .flex2 {
+    padding: 15px;
+}
+
+.putt4, .tee, .bottom{
+    border: 3px solid rgb(46, 79, 16);
+}
+.firstflex {
+    font-size: larger;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(233, 209, 179, 0.459);
+    padding:20px;
+    border-radius: 1em;
+    margin: 30 px;
+}
+.lastflex {
+    display: flex;
+    padding: 15px;
+    
+}
+.coursep {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
