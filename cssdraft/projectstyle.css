@@ -44,17 +44,9 @@ img {
 .lastflex {
     display: flex;
     padding: 15px;
+    justify-content: center;
     
 }
 .coursep {
     padding: 15px;
 }
-
-
-
-
-
-
-
-
-
