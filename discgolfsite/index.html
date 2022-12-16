@@ -18,6 +18,17 @@
   animation-name: spin;
   animation-duration: 2s;
 }
+#skip {
+            background-color: #8ed390;
+            border: 1px solid black;
+            padding: 2px;
+            position: absolute;  /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +39,7 @@
             <div><a href="discs.html">Discs & Flight</a></div>
             <div><a href="faq.html">FAQ</a></div>
         </div>
-
+        <a id="skip" tabindex="1" href="#content">Skip To Content</a> <br>
 <div class="firstflex">
          <p class="intro">
             You may have heard of disc golf because of its rise to popularity during the Covid-19 pandemic. With its 
@@ -39,7 +50,7 @@
 <div class="bigflex">
     <div class="flex1">
         <img class="putt4" src="../images/putt4.jpg" alt="disc golf player putting">
-        <p>
+        <p id="content">
             Disc golf is played almost exactly like golf, except without the clubs or balls. The goal 
             is to complete each hole with the fewest throws. Every hole has a designated “par”, or a set score. The 
             par may be 3, 4, or 5 throws. Say for example on a par 3, you get it in the basket in 2 throws (Nice!). 

@@ -15,7 +15,7 @@
         margin-left: 40px;}
         
         .bigflex1 {padding: 15px;}
-        
+
         @keyframes spin {
   from {transform: rotate(0deg) ;}
   to {transform: rotate(364deg);}
@@ -24,7 +24,17 @@
   animation-name: spin;
   animation-duration: 2s;
 }
-        
+      #skip {
+            background-color: #8ed390;
+            border: 1px solid black;
+            padding: 2px;
+            position: absolute;  /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }  
     </style>
 </head>
 <body>
@@ -35,10 +45,11 @@
         <div><a href="discs.html">Discs & Flight</a></div>
         <div><a href="faq.html">FAQ</a></div>
     </div>
+    <a id="skip" tabindex="1" href="#content">Skip To Content</a> <br>
     <div class="bigflex1">
         <div class="intro">
             <img class="old" src="../images/ed.jpg" alt="two disc golf players in the 1970's">
-            <p class="oldp">Disc golf was created in the late 1970’s, originally played with regular frisbees. As the game evolved, 
+            <p id="content">Disc golf was created in the late 1970’s, originally played with regular frisbees. As the game evolved, 
                 specialized discs were created to suit the needs of different shot shapes and player needs. Now, there 
                 hundreds of different types of discs that all act very differently when thrown. There are 3 main 
                 types of discs, with many subtypes. The 3 types are drivers, midranges, and putters. The main difference 

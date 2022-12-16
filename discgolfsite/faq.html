@@ -18,6 +18,17 @@
   animation-name: spin;
   animation-duration: 2s;
 }
+#skip {
+            background-color: #8ed390;
+            border: 1px solid black;
+            padding: 2px;
+            position: absolute;  /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +39,7 @@
             <div><a href="discs.html">Discs & Flight</a></div>
             <div><a href="faq.html">FAQ</a></div>
         </div>
-
+        <a id="skip" tabindex="1" href="#content">Skip To Content</a> <br>
 <div class="firstflex">
          <p class="intro">
             Before you decide to go disc golfing for the first time there are a few things to know. Even if you have 
@@ -38,7 +49,7 @@ disc golfed before, these could be helpful tips.
 <div class="bigflex">
     <div class="flex1">
         <img class="putt4" src="../images/clothes.jpg" alt="disc golf player putting">
-        <p>
+        <p id="content">
             Attire as important, as your round will be a short hike. Shoes or boots that can handle being wet and/or 
 muddy are advantageous but not necessary. Sunscreen is also important if the course is relatively open. A bag to carry your discs in is extremely helpful, as you won't need to place your discs on the ground during every shot. Its is also extremely helpful to bring a towel with you to clean and dry your discs if necessary.
         </p>
